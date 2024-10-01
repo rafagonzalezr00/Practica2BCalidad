@@ -39,6 +39,6 @@ public class Empleado{
 			retencion=15;
 		}
 		
-		return salarioBase*(1-retencion);
+		return salarioBase*(100-retencion);
 	}
 }
