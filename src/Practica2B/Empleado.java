@@ -29,16 +29,19 @@ public class Empleado{
 		
 		return salarioBase+primas+extras;
 	}
+	
 	public float CalculoNominaNeta(float NominaBruta) {
 		float retencion=0;
 		
 		if(NominaBruta>=2500) {
-			retencion=18;
+			retencion=0.18f;
 		}
 		else if(NominaBruta>=2100) {
-			retencion=15;
+			retencion=0.15f;
 		}
 		
-		return salarioBase*(100-retencion);
+		
+		return salarioBase*(1-retencion);
 	}
+	
 }
