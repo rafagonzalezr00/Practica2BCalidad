@@ -38,7 +38,7 @@ class EmpleadoTest {
 		System.out.println("After Each");
 	}
 
-	/*TEST NOMINA BRUTA VENDEDOR*/
+	/*TESTS NOMINA BRUTA VENDEDOR*/
 	
 	@Test
 	void testCalculoNomimaBrutaVendedorSinNada() {
@@ -107,7 +107,8 @@ class EmpleadoTest {
 		assertEquals(expected, calculado);
 	}
 	
-	/*TEST NOMINA BRUTA ENCARGADO*/
+	/*TESTS NOMINA BRUTA ENCARGADO*/
+	
 	@Test
 	void testCalculoNomimaBrutaEncargadoSinNada() {
 		this.tipoE=TipoEmpleado.Encargado;

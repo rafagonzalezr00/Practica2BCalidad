@@ -41,7 +41,7 @@ public class Empleado{
 		}
 		
 		
-		return salarioBase*(1-retencion);
+		return NominaBruta*(1-retencion);
 	}
 	
 }
